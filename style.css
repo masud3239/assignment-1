@@ -26,6 +26,24 @@
     background-color: #ffd700;
     color: #000000;
 }
+.section-heading {
+    max-width: 1360px;
+    text-align: center;
+    height: 152px;
+    gap:16px;
+    margin: 0 auto;
+}
+.section-heading h1 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
 
 /*---------------Main Style--------------- */
 
@@ -60,5 +78,105 @@
     font-size: 16px;
     font-weight: medium;
 }
+/*-----------Banner Section------------------*/
+#banner {
+	background-image: url("images/hero-bg.png");
+	 height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+    background-repeat: no-repeat;
+}
 
+#banner.banner-container {
+	display: flex;
+}
+#banner .banner-container button {
+	text-align: center;
+	margin-left: 45%;
+	margin-top: 200px;
+	margin-bottom: 10px;
+	color: #30b868;
+	background-color: white;
+	border: none;
+	border-radius:20px;
+	padding: 10px;
+}
+#banner .banner-container h1, p {
+	text-align: center;
+}
+.banner-container .heading1 {
+	color: white;
+	margin-bottom: 5px;
+}
+.banner-container .heading2 {
+	color: #30b868;
+	margin-bottom: 5px;
+}
+.banner-container p {
+	color: white;
+	line-height: 30px;
+	width: 500px;
+	margin-left: 36%;
+	margin-bottom: 40px;
+	
+}
 
+#banner .btn {
+	margin-left: 42%;
+}
+.btn a {
+    text-decoration: none;
+    background-color: #30b868;
+    color: #ffffff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: Semi bold;
+
+}
+
+ .btn a:hover {
+    background-color: #ffd700;
+    color: #000000;
+}
+
+#notes {
+	padding-top: 130px;
+}
+#notes .notes-container {
+	width: 85%;
+	max-width: 1360px;
+	margin: 0 auto;
+}
+#notes .notes-container .notes-box {
+	display: flex;
+	gap: 24px;
+}
+
+.notes-box .notes-card{
+	padding: 30px;
+	max-width: 300px;
+	box-shadow: 0 6px 50px 0 #00000048;
+}
+.notes-card {
+    text-align: center;
+    padding: 24px;
+}
+.notes-card img{
+	border-radius: 50%;
+    padding: 10px;
+	margin-bottom: 30px;
+    background-color: #F95555;
+}
+.notes-card h1 {
+    font-size: 24px;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.notes-card p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+	
