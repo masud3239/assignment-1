@@ -155,9 +155,9 @@
 }
 
 .notes-box .notes-card{
-	padding: 30px;
-	max-width: 300px;
-	box-shadow: 0 6px 50px 0 #00000048;
+	padding: 24px;
+	max-width: 322px;
+	box-shadow: 0 0 8px 0 #000000;
 }
 .notes-card {
     text-align: center;
